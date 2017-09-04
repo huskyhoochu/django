@@ -13,3 +13,8 @@
 패스트캠퍼스 슬랙을 첫 사용.
 트렐로 가입.
 
+첫 수업: [html/css 기본](https://github.com/huskyhoochu/django/blob/master/markdown/17:09:04.md)
+<br>
+요약: html의 기본 구조와 텍스트 태그의 사용법을 배웠다. 
+<br>
+에디터에서 html을 좀더 편리하게 배울 수 있도록 만들어진 [emmet](https://docs.emmet.io/)이라는 툴을 알게 되었다. emmet의 쓰임새를 정리하고 익숙하게 사용하는 것이 오늘의 과제다.
