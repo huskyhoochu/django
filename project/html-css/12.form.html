@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form</title>
+</head>
+<body>
+	<form action="">
+		<label for="">Username</label>
+		<input type="text">
+		<br>
+		<label for="password">Password</label>
+		<input type="password" id="password">
+		<br>
+		<label for="">Checkbox</label>
+		<input type="checkbox">
+		<br>
+		<!-- 체크박스에서 이름만 선택해도 눌릴 수 있도록 하는 것 -->
+		<input type="checkbox" id="cb1">
+		<label for="cbl">CB1</label>
+		<input type="checkbox" id="cb2">
+		<label for="cb2">CB2</label>
+	</form>
+	
+	<hr>
+
+	<form action="" method="get">
+	<input type="text" name="username"><br>
+	<input type="password" name="password"><br>
+	<input type="radio" name="radio"><br>
+	<input type="checkbox" name="checkbox"><br>
+	<input type="button" name="Button" value="Button"><br>
+	<input type="file" name="file"><br>
+	<input type="submit" value="Submit"><br>
+	<input type="reset" value="Reset"><br>
+	<input type="hidden" name="hidden" value="hiddenvalue"><br>
+	</form>
+
+	<hr>
+
+	<form action="">
+		<input type="text" value="disabled" disabled><br>
+		<input type="text" value="readonly" readonly><br>
+		<input type="text" required><br>
+		<input type="text" placeholder="공백은 안됩니다"><br>
+		<input type="text" size="3"><br>
+		<input type="text" maxlength="10"><br>
+		<input type="checkbox" checked="checked"><br>
+		<input id="radio1" type="radio" name="agree" checked="checked"><br>
+		<input id="radio2" type="radio" name="agree"><br>
+	</form>
+
+	<hr>
+
+<button type="submit">submit type button</button>
+<button type="reset">reset type button</button>
+<button type="button">button type button</button>
+
+	<hr>
+
+<select>
+	<optgroup label="Fruits">
+		<option value="apple">Apple</option>
+		<option value="banana">Banana</option>
+		<option value="orange">Orange</option>
+	</optgroup>
+	<optgroup label="Colors">
+		<option value="red">Red</option>
+		<option value="blue">Blue</option>
+		<option value="green">Green</option>
+	</optgroup>
+</select>
+
+</body>
+</html>
