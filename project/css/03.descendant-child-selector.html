@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		/*하위 선택자: 하위 모든 요소에 적용*/
+		section.descendant ul {
+			border: 1px solid black;
+		}
+		/*자식 선택자: 바로 아래 자식 요소만 적용*/
+		section.child > ul {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+	<section class="descendant">
+	<h1>Section1</h1>
+	<ul>
+		<li>Chapter1</li>
+		<li>Chapter2</li>
+		<li>
+			Chapter3
+			<ul>
+				<li>SubChapter3-1</li>
+				<li>SubChapter3-2</li>
+			</ul>
+		</li>
+	</ul>
+	</section>
+	<section class="child">
+	<h1>Section1</h1>
+	<ul>
+		<li>Chapter1</li>
+		<li>Chapter2</li>
+		<li>
+			Chapter3
+			<ul>
+				<li>SubChapter3-1</li>
+				<li>SubChapter3-2</li>
+			</ul>
+		</li>
+	</ul>
+	</section>
+</body>
+</html>

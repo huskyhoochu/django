@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>adjacent-genenal-sibling</title>
+	<style>
+		section {
+			border: 5px solid black;
+			margin-bottom: 20px;
+		}
+		.adjacent h1 + ul {
+			background-color: LightBlue;
+			color: DarkBlue;
+		}
+
+		.general h1 ~ ul {
+			background-color: LightBlue;
+			color: DarkBlue;
+		}
+	</style>
+</head>
+<body>
+	<section class="adjacent">
+		<ul>
+			<li>list1 - item1</li>
+		</ul>
+		<h1>Adjacent</h1>
+		<ul>
+			<li>list2 - item1</li>
+			<li>list2 - item2</li>
+		</ul>
+		<ul>
+			<li>list3 - item1</li>
+			<li>list3 - item2</li>
+		</ul>
+	</section>
+	<section class="general">
+		<ul>
+			<li>list1 - item1</li>
+		</ul>
+		<h1>General</h1>
+		<ul>
+			<li>list2 - item1</li>
+			<li>list2 - item2</li>
+		</ul>
+		<ul>
+			<li>list3 - item1</li>
+			<li>list3 - item2</li>
+		</ul>
+	</section>
+</body>
+</html>
