@@ -20,3 +20,9 @@
 에디터에서 html을 좀더 편리하게 배울 수 있도록 만들어진 [emmet](https://docs.emmet.io/)이라는 툴을 알게 되었다. emmet의 쓰임새를 정리하고 익숙하게 사용하는 것이 오늘의 과제다.
 <br>
 오늘의 과제 완료: [emmet documentation 정리](https://github.com/huskyhoochu/django/blob/master/markdown/emmet-documentation.md)
+
+<hr>
+
+### 17/09/05
+
+둘째날. 
