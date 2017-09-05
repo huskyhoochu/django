@@ -25,8 +25,14 @@
 
 ### 17/09/05
 
-둘째날: [css 활용]()
+둘째날: [css 활용](https://github.com/huskyhoochu/django/blob/master/markdown/17:09:05.md)
 
 요약: css 활용 방법을 배웠다. 여백, 서체, 박스 모델.
 
 오늘의 과제 완료: [박보영 나무위키 사이트](https://github.com/huskyhoochu/django/blob/master/project/css/09.park.html)
+
+<hr>
+
+### 17/09/06
+
+셋째날: 
