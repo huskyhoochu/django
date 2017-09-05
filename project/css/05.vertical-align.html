@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vertical-align</title>
+	<style>
+		div {
+			width: 300px;
+			height: 300px;
+			border: 1px solid black;
+		}
+		span {
+			border: 1px solid black;
+		}
+		/*각 요소간의 상대적인 높낮이 설정*/
+		span.top {
+			font-size: 50px;
+			vertical-align: top;
+		}
+		span.middle {
+			vertical-align: middle;
+		}
+		span.bottom {
+			vertical-align: bottom;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<span class="top">Top</span>
+		<span class="middle">Middle</span>
+		<span class="bottom">Bottom</span>
+	</div>
+</body>
+</html>
