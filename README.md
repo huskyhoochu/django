@@ -13,7 +13,7 @@
 패스트캠퍼스 슬랙을 첫 사용.
 트렐로 가입.
 
-첫 수업: [html/css 기본](https://github.com/huskyhoochu/django/blob/master/markdown/17:09:04.md)
+첫 수업: [html 기본](https://github.com/huskyhoochu/django/blob/master/markdown/17:09:04.md)
 <br>
 요약: html의 기본 구조와 텍스트 태그의 사용법을 배웠다. 
 <br>
@@ -25,4 +25,8 @@
 
 ### 17/09/05
 
-둘째날. 
+둘째날: [css 활용]()
+
+요약: css 활용 방법을 배웠다. 여백, 서체, 박스 모델.
+
+오늘의 과제 완료: [박보영 나무위키 사이트]()
