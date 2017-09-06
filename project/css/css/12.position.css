@@ -1,0 +1,35 @@
+div {
+	padding: 10px;
+	border: 1px solid black;
+	color: white;
+	background-color: rgba(50,50,50,0.8);
+}
+
+div.relative1 {
+	position: static;
+	width: 200px;
+	height: 200px;
+}
+
+div.relative2 {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	/*left: 50px;
+	*//*left: 20px;*/
+}
+div.absolute {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+div.fixed {
+	background-color: blue;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+div.large {
+	width: 300px;
+	height: 1000px;
+}

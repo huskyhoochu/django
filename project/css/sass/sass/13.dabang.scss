@@ -1,0 +1,82 @@
+$color-text-anchor: #585858;
+$length-header-height: 61px;
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $color-text-anchor;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+header.top-header {
+  height: $length-header-height;
+  background-color: #fdd;
+
+  //하위 nav, .header-menu, li, li > a 요소가 전부 같은 height를 갖도록 함
+  > nav {
+    height: $length-header-height;
+    > .header-menu {
+      li {
+        line-height: 61px;
+        float: left;
+      }
+      //로고 이미지 위치는 수동으로 조절
+      .img-logo {
+        margin-top: 16px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      //li의 자식 요소인 a들은 height값을 가지며,
+      //a요소는 원래 inline이므로 높이값을 갖기 위해 display 속성을 inline-block으로 변경
+      > a {
+        height: $length-header-height;
+        display: inline-block;
+      }
+      //.
+      &.header-menu-left {
+        float: left;
+        li {
+          margin-right: 7px;
+        }
+      }
+      &.header-menu-right {
+        float: right;
+        li > a {
+          padding: 0 8px;
+        }
+        >.right-sub-menu {
+          float: left;
+        }
+
+      }
+    }
+  }
+}
+.header-right-menu1 {
+  margin-right: 40px;
+}
+
+// div.header {
+//   margin-top: 16px;
+//   margin-left: 12px;
+// }
+// div.logo {
+//   float: left;
+// }
+// table.pay {
+//   margin-left: 80px;
+// }
+// td {
+//   padding-left: 10px;
+// }
+// table.button {
+//   float: right;
+// }

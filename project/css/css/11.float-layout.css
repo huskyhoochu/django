@@ -1,0 +1,31 @@
+.float-frame {
+	width: 300px;
+	background-color: #eee;
+	border: 1px solid #ddd;
+	padding: 10px;
+/*	overflow: auto;
+	overflow: hidden;
+부모 요소를 조작하는 건 제약이 따르므로 권장하지 않는다.*/}
+
+/*가장 좋은 방법: 가상선택자 추가
+html상에서 부모 요소에 자식 요소가 있는 것처럼 속일 수 있다.
+*/
+.float-frame:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.float-unit {
+	width: 50px;
+	background: #333;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 0;
+	margin-left: 5px;
+	float: left;/*자식 요소가 전부 float되면 부모 요소가
+	자기 자식이 없다고 판단한다*/
+}
