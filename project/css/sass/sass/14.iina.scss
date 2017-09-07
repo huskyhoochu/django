@@ -2,6 +2,7 @@ $length-header-height: 40px;
 html, body {
   margin: 0;
   padding: 0;
+  background-color: #423E66;
 }
 
 a {
@@ -33,7 +34,7 @@ header.top-header {
         float: left;
         line-height: 20px;
 
-        > a {
+        >a {
           height: 20px;
           display: inline-block;
         }
@@ -43,6 +44,7 @@ header.top-header {
         float: left;
         li {
           padding: 10px 8px;
+          margin: 0 auto;
         }
       }
       &.header-menu-right {
@@ -54,4 +56,35 @@ header.top-header {
     }
 
   }
+}
+
+div.main {
+  margin-top: 4rem;
+  >.top {
+    padding: 4rem 0;
+  >.container {
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    .img-main {
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%, 30%);
+      width: 200px;
+      height: 200px;
+    }
+    .title {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%,350%);
+      display: inline;
+      text-align: center;
+      color: white;
+      font-size: 4rem;
+    }
+  }
+
+  }
+
 }
