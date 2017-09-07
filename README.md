@@ -35,4 +35,12 @@
 
 ### 17/09/06
 
-셋째날: 
+셋째날: [css/sass](https://github.com/huskyhoochu/django/blob/master/markdown/17:09:06.md)
+
+요약: css 정렬과 float 개념. 그리고 css 전처리기인 Sass 활용법까지. 소화하기가 좀 버거워지기 시작했다. 주말에 정리해야 할 것 같다.
+
+<hr>
+
+### 17/09/07
+
+넷째날: 
