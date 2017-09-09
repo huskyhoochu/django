@@ -312,29 +312,127 @@ header.top-header {
   }
 }
 
+.footer-bottom {
+  width: 100%;
+  height: 268px;
+  background-color: #2A2A2A;
+  box-sizing: border-box;
+  .footer-bottom-member {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 93px;
+    box-sizing: border-box;
+    .footer-bottom-icon {
+      float: left;
+      width: 98px;
+      margin-right: 45px;
+      > a {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        .station3-icon {
+          height: 88px;
+          background-repeat: no-repeat;
+          background-image: url('../images/station3_CI.png')
+        }
+      }
+    }
+    .footer-bottom-list-container {
+      border: 1px solid white;
+      > * {
+        display: inline-block;
+        color: #919191;
+        font-size: 13px;
+        line-height: 2;
+        strong {
+          color: white;
+        }
+        &.item1{
+          width: 288px;
+        }
+        &.item2{
+          width: 323px;
+        }
+        &.item3{
+          width: 196px;
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+//미디어 쿼리: 화면 크기 변화에 따른 조건문
+@media screen and (max-width: 800px) {
+  .main-search-container {
+    height: 400px;
+    .img-hyeri {
+      background-size: contain;
+    }
+    .img-bg {
+      background-size: cover;
+    }
+    .input-bg {
+      height: 60px;
+    }
+    .search-box {
+      height: 60px;
+    }
+    .input-container {
+      height: 60px;
+      > input {
+        width: 200px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 10px;
+      }
+      > button {
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+      }
+    }
+  }
+  .theme-search-container {
+    .theme-list {
+      .theme-item {
+        width: 32%;
+        &:nth-of-type(3n-1) {
+          margin: 0 2%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 620px) {
+  .main-search-container {
+    height: 200px;
 
-  //
-  //   .theme-list {
-  //     position: absolute;
-  //     width: 960px;
-  //     top: 130%;
-  //     left: 50%;
-  //     transform: translateX(-50%);
-  //     float: left;
-  //
-  //     li {
-  //       float: left;
-  //       margin-left: 20px;
-  //     }
-  //
-  //     > a {
-  //       margin: 0;
-  //       padding: 0;
-  //     }
-  //
-  //
-  //   }
-  // }
+  }
+}
+
+//
+//   .theme-list {
+//     position: absolute;
+//     width: 960px;
+//     top: 130%;
+//     left: 50%;
+//     transform: translateX(-50%);
+//     float: left;
+//
+//     li {
+//       float: left;
+//       margin-left: 20px;
+//     }
+//
+//     > a {
+//       margin: 0;
+//       padding: 0;
+//     }
+//
+//
+//   }
+// }
 //
 //
 //   .theme-list {

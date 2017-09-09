@@ -1,0 +1,144 @@
+$length-header-height: 42px;
+$length-main-header-height: 112px;
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix {
+  &::after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+  }
+}
+
+header.sns-header {
+  height: $length-header-height;
+  background-color: #4C4C4C;
+  > nav {
+    height: $length-header-height;
+    width: 1230px;
+    margin: 0 auto;
+    >.header-supporter {
+      height: $length-header-height;
+      float: right;
+      padding: 0 15px;
+    }
+    li {
+      height: $length-header-height;
+      line-height: $length-header-height;
+      float: left;
+       > * {
+        height: $length-header-height;
+        display: inline-block;
+        .login-button {
+          background-color: #4C4C4C;
+          color: white;
+          border: 1px solid white;
+          font-size: 13px;
+          border-radius: 2px;
+          cursor: pointer;
+          &:hover {
+            background-color: #5C5C5C;
+          }
+          &:focus {
+            outline: none;
+          }
+        }
+        .social {
+          width: 17px;
+          height: $length-header-height;
+          margin: 0 9px;
+          color: white;
+          &.fbk {
+            background-image: url('../images/header-ico-sns.png');
+            background-repeat: no-repeat;
+            background-position: 0px 12px;
+          }
+          &.twt {
+            background-image: url('../images/header-ico-sns.png');
+            background-repeat: no-repeat;
+            background-position: -17px 12px;
+          }
+          &.happybn {
+            background-image: url('../images/header-ico-sns.png');
+            background-repeat: no-repeat;
+            background-position: -34px 12px;
+          }
+          &.yt {
+            background-image: url('../images/header-ico-sns.png');
+            background-repeat: no-repeat;
+            background-position: -51px 12px;
+          }
+          &.is {
+            background-image: url('../images/header-ico-sns.png');
+            background-repeat: no-repeat;
+            background-position: -68px 12px;
+          }
+          &.ka {
+            background-image: url('../images/header-ico-sns.png');
+            background-repeat: no-repeat;
+            background-position: -85px 12px;
+          }
+          &.brc {
+            background-image: url('../images/header-ico-sns.png');
+            background-repeat: no-repeat;
+            background-position: -119px 12px;
+          }
+          &.rss {
+            background-image: url('../images/header-ico-sns.png');
+            background-repeat: no-repeat;
+            background-position: -102px 12px;
+          }
+          &.blg {
+            background-image: url('../images/header-ico-sns.png');
+            background-repeat: no-repeat;
+            background-position: -136px 12px;
+          }
+        }
+        .search-box {
+          margin-top: 7px;
+          line-height: $length-header-height;
+          height: $length-header-height;
+          width: 176px;
+          box-sizing: border-box;
+          > input, button {
+            float: left;
+            height: 27px;
+            border: none;
+            box-sizing: border-box;
+            &:focus {
+              outline: none;
+            }
+          }
+          > input {
+            width: 149px;
+            font-size: 14px;
+            line-height: 27px;
+            text-indent: 10px;
+          }
+          > button {
+            width: 27px;
+            background-color: white;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+header.main-header {
+  height: $length-main-header-height;
+}

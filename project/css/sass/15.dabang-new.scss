@@ -1,14 +1,24 @@
+/*목차
+
+1. 변수값
+2. 전역 설정
+3. 헤더 메뉴바
+4. 메인 사진
+5. 테마 검색 리스트
+*/
+
+//1. 변수값
 $color-text-anchor: #585858;
 $color-bg-main-search: #cbd5c4;
 $color-bg-main-search-btn: #3b8de0;
 $color-bg-main-search-btn-hover: #2074c8;
 $length-header-height: 61px;
 
+//2. 전역 설정
 body, html {
   padding: 0;
   margin: 0;
 }
-
 a {
   text-decoration: none;
   color: $color-text-anchor;
@@ -19,6 +29,7 @@ ul, ol {
   margin: 0;
 }
 
+//3. 헤더 메뉴바
 header.top-header {
   height: $length-header-height;
   border-bottom: 1px solid #eee;
@@ -67,6 +78,8 @@ header.top-header {
     }
   }
 }
+
+//4. 메인 사진
 .main-search-container {
   position: relative;
   width: 100%;
@@ -139,6 +152,95 @@ header.top-header {
 
       &:hover {
         background-color: $color-bg-main-search-btn-hover;
+      }
+    }
+  }
+}
+
+//5. 테마 검색 리스트
+.theme-search-container {
+  width: 960px;
+  margin: 0 auto;
+
+  > header {
+    margin: 71px auto 31px;
+    text-align: center;
+  }
+
+  .theme-list {
+    .theme-item {
+      // border: 1px solid black;
+      width: 300px;
+      height: 300px;
+      float: left;
+      box-sizing: border-box;
+      margin-bottom: 30px;
+
+      &:nth-of-type(3n-1) {
+        margin: 0 30px;
+      }
+      > a {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+
+        > * {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+        }
+        > .img-bg {
+          height: 100%;
+
+          &.pet {
+            background-image: url('../images/dabang-pet.jpg');
+          }
+          &.guarantee {
+            background-image: url('../images/dabang-guarantee.jpg');
+          }
+          &.pano {
+            background-image: url('../images/dabang-pano.jpg');
+          }
+          &.parking {
+            background-image: url('../images/dabang-parking.jpg');
+          }
+          &.direct {
+            background-image: url('../images/dabang-direct.jpg');
+          }
+          &.officetel {
+            background-image: url('../images/dabang-officetel.jpg');
+          }
+        }
+        > .mask {
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+        > .text-container {
+          color: white;
+          text-align: center;
+          top: 50%;
+          transform: translateY(-50%);
+          padding: 0 10%;
+          box-sizing: border-box;
+
+          h3.theme-item-title {
+            font-size: 25px;
+            margin: 0 0 20px 0;
+          }
+
+          hr.theme-item-line {
+            width: 17%;
+          }
+
+          p.theme-item-description {
+            font-size: 13px;
+            margin: 25px 0 0 0;
+          }
+        }
+
+        
       }
     }
   }
