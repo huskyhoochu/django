@@ -86,7 +86,9 @@
 
 ### 17/09/11
 
-여덟째날: 
+여덟째날: [나만의 사이트 만들기/프레임워크](https://github.com/huskyhoochu/django/blob/master/markdown/17:09:11.md)
+<br>
+요약:
 
 
 
