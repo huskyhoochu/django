@@ -312,7 +312,7 @@ header.main-header {
     }
     .notice-list {
       position: absolute;
-      left: 68.3%;
+      left: 67%;
       top: -16px;
       width: 390px;
       padding: 25px;
@@ -321,7 +321,6 @@ header.main-header {
       border: 1px solid $color-bg-gray-more;
       float: left;
       .notice-title {
-        line-height: 29px;
         margin-bottom: 20px;
         h3 {
           color: $color-bg-gray;
@@ -374,6 +373,110 @@ header.main-header {
     }
   }
   .news-panel {
+    float: left;
+    padding-left: 32px;
+    padding-bottom: 50px;
+    .news-title {
+      height: 29px;
+      h3 {
+        color: $color-bg-gray;
+        margin: 0;
+        float: left;
+        line-height: 29px;
+        display: inline-block;
+      }
+      button {
+        color: $color-bg-gray;
+        float: left;
+        border: 1px solid $color-bg-gray-more;
+        background-color: white;
+        white-space: pre;
+        font-size: 12px;
+        padding: 5px 15px 7px 10px;
+        margin-left: 20px;
+        cursor: pointer;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+    .news-table {
+      padding-top: 15px;
+      .news-item {
+        position: relative;
+        width: 389px;
+        height: 292px;
+        // border: 1px solid black;
+        float: left;
+        box-sizing: border-box;
+        &:nth-of-type(2) {
+          margin: 0 7px;
+        }
+        > a {
+          display: inline-block;
+          width: 100%;
+          height: 100%;
+          .img-bg {
+            height: 100%;
+            &.belarus {
+              background-size: cover;
+              background-image: url('../images/MSF206301_Medium.jpg');
+            }
+            &.libya {
+              background-size: cover;
+              background-image: url('../images/MSF181146_Medium.jpg');
+            }
+            &.bangladesh {
+              background-size: cover;
+              background-image: url('../images/IMG-20170906-WA0009.jpg');
+            }
+          }
+        }
+        .text-container {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          padding: 16px 18px;
+          height: 104px;
+          box-sizing: border-box;
+          margin: 10px;
+          background-color: white;
+          font-size: 16px;
+          line-height: 1.5;
+          .meta {
+            font-size: 14px;
+            padding-top: 5px;
+            position: absolute;
+            bottom: 13px;
+            .meta-title {
+              color: $color-bg-main;
+              float: left;
+              padding-right: 10px;
+            }
+            .meta-date {
+              border-left: 1px solid $color-bg-gray-more;
+              float: left;
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .promotion-panel {
+    padding-left: 32px;
+    float: left;
+    li {
+      border-top: 1px solid $color-bg-gray-more;
+      border-bottom: 1px solid $color-bg-gray-more;
+      float: left;
+      font-size: 20px;
+      .img-bg {
 
+      }
+      .text {
+        
+      }
+    }
   }
 }
