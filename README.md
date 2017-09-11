@@ -78,7 +78,7 @@
 
 ### 17/09/10
 
-일곱쩨닐: [주말 과제: 사이트 만들어보기](https://github.com/huskyhoochu/django/blob/master/project/css/16.doctor.html)
+일곱째날: [주말 과제: 사이트 만들어보기](https://github.com/huskyhoochu/django/blob/master/project/css/16.doctor.html)
 <br>
 상단 메뉴까지밖에 못 만들고 완성을 못했다. 주말 동안 게을렀다. 반성해야겠다.
 
@@ -86,9 +86,9 @@
 
 ### 17/09/11
 
-여덟째날: [나만의 사이트 만들기/프레임워크](https://github.com/huskyhoochu/django/blob/master/markdown/17:09:11.md)
+여덟째날: [나만의 사이트 만들기/Git](https://github.com/huskyhoochu/django/blob/master/markdown/17:09:11.md)
 <br>
-요약:
+요약: Git의 사용 방법을 배웠다. commit과 push의 원리를 배웠고, 여러 branch를 쪼개서 작업한 뒤 merge하는 방법까지 배웠다.
 
 
 
