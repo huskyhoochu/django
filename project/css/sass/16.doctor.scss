@@ -349,7 +349,11 @@ header.main-header {
           color: $color-bg-gray;
           line-height: 1.7;
           font-size: 15px;
+          display: inline-block;
+          max-width: 300px;
           overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
           span {
             color: $color-bg-main;
             padding-right: 10px;
@@ -370,6 +374,6 @@ header.main-header {
     }
   }
   .news-panel {
-    
+
   }
 }
