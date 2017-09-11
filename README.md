@@ -62,6 +62,31 @@
 
 ### 17/09/08
 
-다섯째날: 
+다섯째날: [다방 만들기/jekyll 만들기](https://github.com/huskyhoochu/django/blob/master/markdown/17:09:08.md)
+<br>
+여기서부턴 알게 된 점과 어려운 점을 md 안에 정리하기 시작했다.
+
+<hr>
+
+### 17/09/09
+
+여섯째날: [개발자 블로그 특강](https://github.com/huskyhoochu/django/blob/master/markdown/%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%20%EC%9E%90%EA%B8%B0%20%ED%91%9C%ED%98%84%EB%B2%95.md)
+<br>
+요약: 블로그는 자기가 나중에 보려는 용도로 충실히 정리하는 것이 좋다.
+
+<hr>
+
+### 17/09/10
+
+일곱쩨닐: [주말 과제: 사이트 만들어보기](https://github.com/huskyhoochu/django/blob/master/project/css/16.doctor.html)
+<br>
+상단 메뉴까지밖에 못 만들고 완성을 못했다. 주말 동안 게을렀다. 반성해야겠다.
+
+<hr>
+
+### 17/09/11
+
+여덟째날: 
+
 
 
