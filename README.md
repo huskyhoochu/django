@@ -90,5 +90,18 @@
 <br>
 요약: Git의 사용 방법을 배웠다. commit과 push의 원리를 배웠고, 여러 branch를 쪼개서 작업한 뒤 merge하는 방법까지 배웠다.
 
+<hr>
+
+### 17/09/12
+
+아홉째날: [git 협업 & python 기초](https://github.com/huskyhoochu/django/blob/master/markdown/17:09:12.md)
+<br>
+요약: Git으로 협업하는 방법을 배웠다. 각 개발자가 브랜치를 나누어 작업하고 merge 및 pull request하는 법을 배웠다. 
+<br>
+그 후 pyenv와 pyenv-virtualenv를 이용한 가상환경을 구축하고, ipython을 이용해 간단한 파이썬 자료형 실습을 했다.
+<br>
+숫자, 문자열, 변수, 리스트, 튜플, 딕셔너리, 셋에 대해 배웠다. 인덱스를 통해 자료형에 접근하는 방법을 배웠다.
+
+<hr>
 
 
