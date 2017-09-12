@@ -5,6 +5,10 @@
 4. 메인 헤더(아이콘과 메뉴바) .main-header
 5. 메인 백그라운드(사진과 문구) .main-bg-container
 6. 테마 판넬(공지사항과 소식) .theme-panels-container
+  6.1 공지사항 판넬 (말라리아와 공지사항) .notice-panel
+  6.2 소식 판넬 (3개의 사진) .news-panel
+  6.3 하단부 프로모션 판넬 (3개의 contact 창구) .promotion-panel
+7. 사이트 푸터(하단 메뉴) .site-footer
 */
 
 //1. 변수
@@ -197,7 +201,7 @@ header.main-header {
           width: 30%;
         }
       }
-      .donate-button {
+      .donate-button1 {
         padding: 0 18px 0 80px;
         a {
           color: white;
@@ -252,9 +256,9 @@ header.main-header {
 //6. 테마 판넬
 .theme-panels-container {
   width: 1230px;
-  height: 530px;
   margin: 0 auto;
-  //background-color: #fcc;
+  margin-bottom: 70px;
+  //6.1 공지사항 판넬
   .notice-panel {
     position: relative;
     width: 1230px;
@@ -372,6 +376,7 @@ header.main-header {
       }
     }
   }
+  //6.2 소식 판넬
   .news-panel {
     float: left;
     padding-left: 32px;
@@ -463,20 +468,53 @@ header.main-header {
       }
     }
   }
+  //6.3 하단부 프로모션 판넬
   .promotion-panel {
-    padding-left: 32px;
+    margin-left: 32px;
     float: left;
-    li {
-      border-top: 1px solid $color-bg-gray-more;
-      border-bottom: 1px solid $color-bg-gray-more;
+    border-top: 1px solid $color-bg-gray-more;
+    border-bottom: 1px solid $color-bg-gray-more;
+    border-width: 30%;
+    a {
       float: left;
       font-size: 20px;
+      margin: 26px 0;
+      padding: 0 26px;
+      box-sizing: border-box;
+      &:nth-of-type(2) {
+        border-left: 1px solid $color-bg-gray-more;
+        border-right: 1px solid $color-bg-gray-more;
+      }
       .img-bg {
-
+        float: left;
+        width: 66px;
+        height: 46px;
+        margin: 0 24px;
+        background-repeat: no-repeat;
+        &.recruit {
+          background-image: url('../images/home-ico-links.png');
+        }
+        &.letter {
+          background-image: url('../images/home-ico-links.png');
+          background-position: -120px 0;
+        }
+        &.heart {
+          background-image: url('../images/home-ico-links.png');
+          background-position: -62px 0;
+        }
       }
       .text {
-        
+        float: left;
+        padding-right: 24px;
+        line-height: 46px;
       }
     }
   }
+}
+//7.사이트 푸터
+.site-footer {
+  width: 1230px;
+  margin: 0 auto;
+  background-color: #F8F8F8;
+
 }
