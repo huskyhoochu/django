@@ -104,4 +104,9 @@
 
 <hr>
 
+### 17/09/13
 
+열째날: [오전 조교님 특강 및 자습](https://github.com/huskyhoochu/django/blob/master/markdown/17:09:13.md)
+
+<br>
+요약: git 심화 사용법과 vim 단축키.
