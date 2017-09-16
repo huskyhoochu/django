@@ -126,7 +126,7 @@
 
 ### 17/09/15
 
-12일차: [python](https://github.com/huskyhoochu/django/blob/master/markdown/17:09:15.md)
+12일차: [python 알고리즘](https://github.com/huskyhoochu/django/blob/master/markdown/17:09:15.md)
 <br>
 요약: 파이썬 알고리즘, 모듈과 패키지, 클래스
 <br>
@@ -136,7 +136,7 @@
 
 ### 17/09/16
 
-13일차: 
+13일차: [우분투 설치해보기]()
 <br>
 요약: 우분투 설치해보기. 파이썬 알고리즘 정리.
 <br>
