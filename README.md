@@ -136,7 +136,7 @@
 
 ### 17/09/16
 
-13일차: [우분투 설치해보기]()
+13일차: [우분투 설치해보기](https://github.com/huskyhoochu/django/blob/master/markdown/17:09:16.md)
 <br>
 요약: 우분투 설치해보기. 파이썬 알고리즘 정리.
 <br>
@@ -156,7 +156,7 @@
 
 ### 17/09/18
 
-15일차:
+15일차: [python 정규표현식](https://github.com/huskyhoochu/django/blob/master/markdown/17:09:18.md)
 <br>
 요약: 파이썬 정규표현식, 파일입출력, 정규표현식을 이용한 웹 크롤링, BeautifulSoup을 이용한 웹 크롤링
 <br>
@@ -166,7 +166,15 @@
 
 ### 17/09/19
 
-16일차:
+16일차: [웹 크롤러 만들기](https://github.com/huskyhoochu/django/blob/master/markdown/17:09:19.md)
 <br>
-요약:
+요약: 파이썬으로 네이버웹툰 크롤러 만들기
+<br>
+얼른 장고를 시작해서 풀스택으로 사이트를 개발하고 싶다. 어떤 기업을 가야 할까? 하는 고민도 있다. 조금 더 천천히 공부하는 시간을 갖고 싶은데, 영어 실력도 모자라고 조급증만 더한다. 
+
+<hr>
+
+### 17/09/20
+
+17일차:
 
