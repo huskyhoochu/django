@@ -20,9 +20,12 @@ $color-bg-gray-more: #e0e0e0;
 $color-bg-gray-hover: #5C5C5C;
 
 //2. 전역설정
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 html, body {
   padding: 0;
   margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 a {
