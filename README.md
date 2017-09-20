@@ -176,5 +176,7 @@
 
 ### 17/09/20
 
-17일차:
+17일차: [정규표현식 주피터](https://github.com/huskyhoochu/django/blob/master/project/jupyter/17-09-20%20Regular%20Expressions.ipynb)
+<br>
+요약: 자습일. 정규표현식 정리. 
 
