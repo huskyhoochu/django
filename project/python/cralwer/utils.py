@@ -4,16 +4,16 @@ from collections import namedtuple
 import requests
 from bs4 import BeautifulSoup
 
-#Episode namedtuple 정의
-Episode = namedtuple('Episode', ['no','img_url', 'title', 'rating', 'created_date'])
+# Episode namedtuple 정의
+Episode = namedtuple('Episode', ['no', 'img_url', 'title', 'rating', 'created_date'])
 
 def get_webtoon_episode_list(webtoon_id, page=1):
     webtoon_list_url = 'http://comic.naver.com/webtoon/list.nhn'
     params = {
-            'titleID' : webtoon_id,
-            'page' : page,
+            'titleId': webtoon_id,
+            'page': page,
     }
-    response = requests.get(webtoon_list_url, params = params)
+    response = requests.get(webtoon_list_url, params=params)
     soup = BeautifulSoup(response.text, 'lxml')
 
     episode_list = list()

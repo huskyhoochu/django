@@ -1,12 +1,10 @@
-# -*- coding: utf-8 -*-
-
 from collections import namedtuple
 from urllib.parse import urlparse, parse_qs
 import requests
 import pickle
 from bs4 import BeautifulSoup
 
-Episode = namedtuple('Episode', ['no','img_url', 'title', 'rating', 'created_date'])
+Episode = namedtuple('Episode', ['no', 'img_url', 'title', 'rating', 'created_date'])
 
 webtoon_yumi = 651673
 webtoon_denma = 119874
@@ -71,10 +69,10 @@ def webtoon_parser(webtoon_id):
 
         episode = Episode(
             no = no,
-            img_url=img_url,
-            title=title,
-            rating=rating,
-            created_date=created_date
+            img_url = img_url,
+            title = title,
+            rating = rating,
+            created_date = created_date
         )
         episode_list.append(episode)
 
@@ -83,7 +81,7 @@ def webtoon_parser(webtoon_id):
 
 li = webtoon_parser(webtoon_denma)
 
-pickle.dump(li, open('denma_pickle.txt','wb'))
+pickle.dump(li, open('denma_pickle.txt', 'wb'))
 
-#save_episode_list_to_file(webtoon_denma, li)
-#load_episode_list_from_file('<119874>_<1060>_<1051>.txt')
+# save_episode_list_to_file(webtoon_denma, li)
+# load_episode_list_from_file('<119874>_<1060>_<1051>.txt')
